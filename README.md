@@ -10,7 +10,7 @@
 ## Instalação
 1. Clone o repositório:
    ```
-   git clone <URL-do-repositório>
+   git clone git@github.com:GuilhermRodovalho/conecta_api.git
    ```
 2. Acesse a pasta do projeto:
    ```
@@ -30,7 +30,7 @@
 ## Dependências de Desenvolvimento
 Instale ferramentas de qualidade de código, se necessário:
 ```
-pip install ruff
+pip install ruff pre-commit
 ```
 
 ## Como Rodar
@@ -42,6 +42,12 @@ pip install ruff
    ```
    docker-compose up --build
    ```
+
+## Contribuindo
+Configure o pre-commit
+```
+pre-commit install
+```
 
 ## Notas
 - Certifique-se de que o banco de dados está configurado corretamente (variável DATABASE_URL no docker-compose).
