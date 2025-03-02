@@ -1,0 +1,19 @@
+# Ignorar node_modules e arquivos de log
+node_modules/
+npm-debug.log*
+
+# Ignorar diretórios de build e distribuição
+/dist/
+/build/
+
+# Ignorar arquivos de cache e logs de sistema
+.DS_Store
+Thumbs.db
+
+# regras especificas para o python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.ruff_cache
+env/
